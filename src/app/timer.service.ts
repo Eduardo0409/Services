@@ -11,7 +11,7 @@ export class TimerService {
     if(!this.timer){
       this.timer = setInterval(() => {
         this.counter++;
-      }, 10);
+      }, 100);
     }
   }
 

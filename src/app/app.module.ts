@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
+import { TimerService } from './timer.service';
 
 @NgModule({
   imports: [
@@ -23,5 +24,6 @@ import { RouterModule } from '@angular/router';
     AboutComponent,
   ],
   bootstrap: [RootComponent],
+  providers: [TimerService],
 })
 export class AppModule { }
